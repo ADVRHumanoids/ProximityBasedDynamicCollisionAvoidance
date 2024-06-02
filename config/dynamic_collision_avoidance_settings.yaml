@@ -1,0 +1,15 @@
+/robot/dyn_coll_avoid_settings:
+  ros__parameters:
+    robot_initial_config: [0.0,-1.56,0.9,0.2,-0.5,1.12]
+    robot_urdf_model_path: "/home/liana/ros2_ws/src/ROS2UtilityNodes/urdf/inail2arm.urdf"
+    robot_base_frame_name: "base_link"
+    robot_tip_frame_name: "arm1_6"
+    topic_motion_subscriber_name: "/robot/motion_planning"
+    topic_sensors_subscriber_name: "/robot/sensors_data"
+    topic_robot_publisher_name: "replanning"
+    sensors_frame_name: ["teraflex_1_sensor1_link","teraflex_1_sensor2_link","teraflex_1_sensor3_link","teraflex_1_sensor4_link","teraflex_1_sensor5_link","teraflex_1_sensor6_link"]
+    distance_threshold: 0.20
+    correction_time: 0.4
+    n_sensors: 6
+    rate: 5
+    log_path: "/tmp/replanner"
