@@ -39,10 +39,10 @@ Keeping in mind what the package does, then, the package requires some inputs an
 
 *As inputs*, the package *online* requires the robot preplanned trajectory and distance measurements. 
 These quantities are supposed to be provided to the package by publishing messages on two different topics. The messages has to be in the form of 'MotionMsg.msg' 
-as [here](https://github.com/lia2790/ROS2PackageForDynamicalCollisionAvoidanceBasedOnProximitySensors/blob/main/msg/MotionMsg.msg) and 'SensorsMsg.msg' 
-as [here](https://github.com/lia2790/ROS2PackageForDynamicalCollisionAvoidanceBasedOnProximitySensors/blob/main/msg/SensorsMsg.msg). 
+as [here](https://github.com/ADVRHumanoids/ProximityBasedDynamicCollisionAvoidance/blob/master/msg/MotionMsg.msg) and 'SensorsMsg.msg' 
+as [here](https://github.com/ADVRHumanoids/ProximityBasedDynamicCollisionAvoidance/blob/master/msg/SensorsMsg.msg). 
 
-*As output*, at each instant of time, the package will provide a replanned robot trajectory to command to the robot by publishing the related message 'RobotMsg.msg' in the form as [here](https://github.com/lia2790/ROS2PackageForDynamicalCollisionAvoidanceBasedOnProximitySensors/blob/main/msg/RobotMsg.msg). 
+*As output*, at each instant of time, the package will provide a replanned robot trajectory to command to the robot by publishing the related message 'RobotMsg.msg' in the form as [here](https://github.com/ADVRHumanoids/ProximityBasedDynamicCollisionAvoidance/blob/master/msg/SensorsMsg.msg). 
 
 
 The replanning of the preplanned robot trajectory operated by the package is based on onboard sensors measurements, therefore, the package additionally requires to 
@@ -86,7 +86,7 @@ In particular, it is required to set these quantities when you want to start the
     rate: 5
     log_path: "/tmp/replanner"
 ```
-in the file `dynamic_collision_avoidance_settings.yaml` related to the node inside the folder [config](https://github.com/lia2790/ROS2PackageForDynamicalCollisionAvoidanceBasedOnProximitySensors/tree/main/config) of the package.
+in the file `dynamic_collision_avoidance_settings.yaml` related to the node inside the folder [config](https://github.com/ADVRHumanoids/ProximityBasedDynamicCollisionAvoidance/tree/master/config) of the package.
 
 Explaination:
 
