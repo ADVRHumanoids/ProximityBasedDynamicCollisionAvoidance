@@ -109,7 +109,7 @@ The values here are just an example. You have to insert the ones regarding your 
 ## Installation
 **To Install** the dynamic collision avoidance package run
 ```console
-git clone https://github.com/ADVRHumanoids/---.git
+git clone https://github.com/ADVRHumanoids/ProximityBasedDynamicCollisionAvoidance.git
 ```
 inside the _**src folder**_ of the workspace and then run
 ```console
