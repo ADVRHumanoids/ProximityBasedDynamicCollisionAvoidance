@@ -1,4 +1,4 @@
-# ➤ ROS2 Packag For Dynamic Collision Avoidance Based On OnBoard ProximitySensors For Human-Robot Close Interactions
+# ➤ ROS2 Package For Dynamic Collision Avoidance Based On OnBoard ProximitySensors For Human-Robot Close Interactions
 
 ## Introduction
 In human-robot shared environments, onboard proximity sensors have been recognized 
