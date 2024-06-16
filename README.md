@@ -26,7 +26,7 @@ based on onboard sensors has been developed.
 Here, a brief explanation of what the package does is given. 
 
 As mentioned in the introduction, this package allows you to avoid dinamic collisions. 
-To do that, the package computes *local changes* of a preplanned robot trajectory, in the Cartesian space. To compute such a local changes the package uses the measurements retrieved by the *onboard* sensors, in particula it 
+To do that, the package computes *local changes* of a preplanned robot trajectory, in the Cartesian space. To compute such a local changes the package uses the measurements retrieved by the *onboard* sensors, in particular it 
 requires the measured distances. 
 Based on that, the result of the package is a local replanning of the robot preplanned trajectory. 
 The avoidance of a dynamic collision performed thanks to the onboard sensors is triggered by a threshold value on the distances measurements. 
@@ -162,7 +162,7 @@ The package has been tested on
 Both on Ubuntu 22.04.
 
 ## Dependences
-The Robot Impedance Modulation requires the following dependencies:
+The package requires the following dependencies:
 * [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page): to handle with basic algebra;
 * [MatLogger2](https://github.com/ADVRHumanoids/MatLogger2): to log data;
 * [KDL](https://www.orocos.org/kdl.html): to handle robot quantities.
