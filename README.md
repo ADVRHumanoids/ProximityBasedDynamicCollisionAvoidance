@@ -9,6 +9,8 @@ enabling in this way human-robot closed interactions.
 For this purpose, the present ROS2 package for online dynamical collision avoidance and recovering
 based on onboard sensors has been developed. 
 
+![1729501512646](https://github.com/user-attachments/assets/76389938-3e66-4909-b1e5-69a82175f163)
+
 ## Outline
 * [Introduction](#introduction)
 * [Outline](#outline)
