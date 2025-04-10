@@ -37,7 +37,7 @@ trajectory. Otherwise, no changes of the pre-planned robot trajectory will be co
 
 ## How to Use It
 
-Keeping in mind what the package does, then, the package requires some inputs and initial settings to do to properly works.
+Keeping in mind what the package does, then, the package requires some inputs and initial settings to do to properly work.
 
 *As inputs*, the package *online* requires the robot preplanned trajectory and distance measurements. 
 These quantities are supposed to be provided to the package by publishing messages on two different topics. The messages has to be in the form of 'MotionMsg.msg' 
